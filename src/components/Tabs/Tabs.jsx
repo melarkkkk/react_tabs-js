@@ -19,7 +19,7 @@ export const Tabs = ({ tabs, activeTabId, onTabSelected }) => {
       </div>
 
       <div className="block" data-cy="TabContent">
-        Some text {activeTabId.slice(4)}
+        {validTab.content}
       </div>
     </div>
   );
